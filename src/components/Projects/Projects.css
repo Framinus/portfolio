@@ -1,0 +1,31 @@
+.projects-container {
+  
+}
+
+.projects-title {
+  align-self: center;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.projects-modules {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+
+  .projects-title {
+    text-align: center;
+  }
+
+  .projects-modules {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
