@@ -8,7 +8,9 @@ const Profile = function() {
         <img className="james-pic" src="http://www.sheffield.com/wp-content/uploads/2013/06/placeholder.png" />
       </div>
       <div className="profile-text">
-        <h2>Warm yet witty intro title</h2>
+        <h2>
+          Title Placeholder
+        </h2>
         <p>
         Lorem ipsum dolor sit amet, sumo imperdiet signiferumque ei eum, quas dolorem conceptam at nam, nam pertinacia adversarium an. At mea porro melius commodo, id solum facer minim nec. Cum ad zril numquam consulatu. Vivendo assueverit in eum. Nam viderer volumus corpora an, quo harum veniam prodesset te, pro ea blandit praesent.
 
