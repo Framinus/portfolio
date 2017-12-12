@@ -1,19 +1,23 @@
 import React, { component } from 'react';
 import './Displaycube.css';
 
-const Displaycube = function() {
+const Displaycube = function(props) {
   return (
     <div className="displaycube-container">
-      <img className="project-teaser" src="./images/roam-teaser-2.jpg" />
+      <img className="project-teaser" src={props.imageUrl} />
       <span className="project-title">
         <p>
-          Roam
+          {props.title}
         </p>
       </span>
       <span className="project-script">
         <p>
-          A travel review site made with Node, Express, and PostgreSQL.
+          {props.description}
         </p>
+      </span>
+      <span className="project-links">
+        <a href={props.siteLink} target="_blank">Site</a> &nbsp; | &nbsp;
+        <a href={props.gitLink} target="_blank">GitHub</a>
       </span>
     </div>
   );
