@@ -5,8 +5,8 @@ const Navbar = function() {
   return (
     <div className="navbar-container">
 
-        <div className="navbar-link">
-          My cool logo
+        <div className="navbar-link my-name">
+          James McCormack
         </div>
         <div className="navbar-link">
           <a name="#projects">

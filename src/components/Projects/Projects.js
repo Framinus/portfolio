@@ -11,6 +11,20 @@ class Projects extends Component {
         description: "A travel review site made with Node, Express, and PostgreSQL.",
         siteLink: "https://roam-travel-site.herokuapp.com/",
         gitLink: "https://github.com/Framinus/roam"
+      },
+      {
+        imageUrl: "./images/simon-teaser.jpg",
+        title: "Patterns - A Memory Game",
+        description: "An interactive game made with JavaScript",
+        siteLink: "https://www.google.com",
+        gitLink: "https://github.com/Framinus/simon-game"
+      },
+      {
+        imageUrl: "./images/rando.jpg",
+        title: "Very Random",
+        description: "Very random randomness",
+        siteLink: "https://www.google.com",
+        gitLink: "https://github.com"
       }
     ]
   }
@@ -22,13 +36,17 @@ class Projects extends Component {
           Projects
         </h2>
         <div className="projects-modules">
-          <Displaycube 
-            title={this.state.projects[0].title}
-            imageUrl={this.state.projects[0].imageUrl}
-            description={this.state.projects[0].description}
-            siteLink={this.state.projects[0].siteLink}
-            gitLink={this.state.projects[0].gitLink}
-            />
+          {this.state.projects.map(project => {
+            return (
+              <Displaycube
+              title={project.title}
+              imageUrl={project.imageUrl}
+              description={project.description}
+              siteLink={project.siteLink}
+              gitLink={project.gitLink}
+              />
+            )
+          })}
         </div>
       </div>
     );
