@@ -1,6 +1,6 @@
 # Portfolio
 
-A portfolio site built with React.
+A portfolio site built with React and currently hosted on Heroku at https://james-portfolio-site.herokuapp.com
 
 ## Current Features
 
