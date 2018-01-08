@@ -13,18 +13,18 @@ class Projects extends Component {
         gitLink: "https://github.com/Framinus/roam"
       },
       {
-        imageUrl: "./images/simon-teaser.jpg",
+        imageUrl: "./images/simon-teaser-2.jpg",
         title: "Patterns - A Memory Game",
-        description: "An interactive game made with JavaScript",
-        siteLink: "https://www.google.com",
+        description: "An interactive game made with JavaScript.",
+        siteLink: "https://patterns-memory-game.herokuapp.com/",
         gitLink: "https://github.com/Framinus/simon-game"
       },
       {
-        imageUrl: "./images/rando.jpg",
-        title: "Very Random",
-        description: "Very random randomness",
+        imageUrl: "./images/dominion-teaser2.jpg",
+        title: "Dominion Deck Builder",
+        description: "A tool used to select, save and review deck sets for the game Dominion, built in Node.js and Express.",
         siteLink: "https://www.google.com",
-        gitLink: "https://github.com"
+        gitLink: "https://github.com/Framinus/dominion-deck"
       }
     ]
   }
