@@ -1,5 +1,14 @@
-### Portfolio
+# Portfolio
 
-This is the beginnings of my portfolio site, which will ultimately be deployed to a custom domain.
+A portfolio site built with React.
 
-I will be building it in React. That is all. 
+## Current Features
+
+- A navigation bar with links to my external media and contact information.
+- A profile section describing my skills and background.
+- A project section with components rendered for each project included.
+- A section for my Medium blog posts, which is currently hardcoded.
+
+## Future Features
+
+- Integration with the Medium API so that my posts are automatically rendered in components.
