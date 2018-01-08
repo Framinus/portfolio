@@ -26,7 +26,7 @@ const Navbar = function() {
       </div>
       <div className="navbar-icons">
         <i className="fa fa-envelope" aria-hidden="true"></i>
-        <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/james-mccormack-185b0a99/"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
       </div>
     </div>
   )
