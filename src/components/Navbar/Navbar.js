@@ -4,9 +4,9 @@ import './Navbar.css';
 const Navbar = function() {
   return (
     <div className="navbar-container">
-
-        <div className="navbar-link">
-          My cool logo
+      <div className="nav-bar-left">
+        <div className="navbar-link" id="my-name">
+          James McCormack
         </div>
         <div className="navbar-link">
           <a name="#projects">
@@ -23,7 +23,11 @@ const Navbar = function() {
             GitHub
           </a>
         </div>
-
+      </div>
+      <div className="navbar-icons">
+        <i className="fa fa-envelope" aria-hidden="true"></i>
+        <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+      </div>
     </div>
   )
 }

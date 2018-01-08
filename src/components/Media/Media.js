@@ -3,10 +3,10 @@ import './Media.css'
 
 const Media = function() {
   return (
-    <div>
+    <div className="media-container">
       <h2>Media</h2>
       <div>
-        <p>Look, there is stuff here.</p>
+        <p>Future home of Medium blog posts via the API.</p>
       </div>
     </div>
   );
