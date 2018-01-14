@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Navbar.css';
 
 const Navbar = function() {
@@ -9,17 +9,15 @@ const Navbar = function() {
           James McCormack
         </div>
         <div className="navbar-link">
-          <a name="#projects">
-            Projects
+            <a href="#projects">Projects</a>
+        </div>
+        <div className="navbar-link">
+          <a href="#media">
+            Media
           </a>
         </div>
         <div className="navbar-link">
-          <a href="https://medium.com/@thejamesmccormack" target="_blank">
-            Medium
-          </a>
-        </div>
-        <div className="navbar-link">
-          <a href="https://github.com/Framinus/" target="_blank">
+          <a href="https://github.com/Framinus/" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>

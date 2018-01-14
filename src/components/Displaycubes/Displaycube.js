@@ -1,10 +1,10 @@
-import React, { component } from 'react';
+import React from 'react';
 import './Displaycube.css';
 
 const Displaycube = function(props) {
   return (
     <div className="displaycube-container">
-      <img className="project-teaser" src={props.imageUrl} />
+      <img className="project-teaser" src={props.imageUrl} alt="website screenshot" />
       <span className="project-title">
         <p>
           {props.title}

@@ -1,11 +1,7 @@
-.projects-container {
-
-}
-
 .projects-title {
-  align-self: center;
   color: #000;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .projects-modules {

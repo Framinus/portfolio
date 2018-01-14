@@ -20,11 +20,11 @@ class Projects extends Component {
         gitLink: "https://github.com/Framinus/simon-game"
       },
       {
-        imageUrl: "./images/dominion-teaser2.jpg",
-        title: "Dominion Deck Builder",
-        description: "A tool used to select, save and review deck sets for the game Dominion, built in Node.js and Express.",
-        siteLink: "https://www.google.com",
-        gitLink: "https://github.com/Framinus/dominion-deck"
+        imageUrl: "./images/old-oakland-books.png",
+        title: "Old Oakland Books",
+        description: "A book catalog site built in React and Express.",
+        siteLink: "https://old-oakland-books.herokuapp.com",
+        gitLink: "https://github.com/Framinus/old-oakland-books"
       }
     ]
   }
