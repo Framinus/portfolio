@@ -7,3 +7,10 @@
 .media-title {
   text-align: center;
 }
+
+.articles-modules {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

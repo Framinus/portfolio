@@ -12,7 +12,7 @@ const Profile = function() {
           Full Stack JavaScript Developer
         </h2>
         <p>
-          Proficient in Node.js, Express, React, PostgreSQL, Mocha/Chai, HTML and CSS. Transitioned from self-guided learning to Learners Guild, a full time ten month program in Oakland, CA that dives into all aspects of full stack web development using JavaScript as the primary language. I have built multiple applications and have a solid understanding of RESTful APIs and Test Driven Development.
+          Proficient in Node.js, Express, React, PostgreSQL, Mocha/Chai, HTML and CSS. I transitioned from self-guided learning to Learners Guild, a full time ten month program in Oakland, CA that dives into all aspects of full stack web development using JavaScript as the primary language. I have built multiple applications and have a solid understanding of RESTful APIs and Test Driven Development.
         </p>
         <p>
           I truly believe that learning is a life long process - I learned to ride a bike in my twenties! Experience matters, but so does the willingness to find unusual answers, solve problems, and most of all, possess the grit and humility to struggle and prevail in unfamiliar territory. I love web development because it constantly changes and will continue to change, affording me the opportunity to grow and change with it!

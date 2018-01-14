@@ -36,9 +36,10 @@ class Projects extends Component {
           Projects
         </h2>
         <div className="projects-modules">
-          {this.state.projects.map(project => {
+          {this.state.projects.map((project, index) => {
             return (
               <Displaycube
+              key={index}
               title={project.title}
               imageUrl={project.imageUrl}
               description={project.description}

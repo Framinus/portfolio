@@ -35,6 +35,7 @@ a:hover {
   min-width: 80%;
   order: 2;
   padding: 10px;
+  text-align: center;
 }
 
 .fa {
