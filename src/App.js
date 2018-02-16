@@ -7,9 +7,18 @@ import Media from './components/Media/Media';
 import Footer from './components/Footer/Footer';
 
 class App extends Component {
+
   render() {
+    let imgUrl = './images/whitetexture.jpg'
+    let style = {
+        root: {
+            backgroundImage: 'url(' + imgUrl + ')',
+            backgroundSize: 'cover',
+            overflow: 'hidden',
+        }
+      }
     return (
-      <div className="App">
+      <div className="App" style={style.root}>
         <Navbar />
         <Profile />
         <a name="projects"></a>

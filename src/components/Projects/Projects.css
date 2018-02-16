@@ -1,6 +1,13 @@
+.projects-container {
+  background-color: rgba(67, 53, 77, 0.8);
+  border-radius: 10px;
+  margin: 3em 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .projects-title {
-  color: #000;
-  margin-bottom: 50px;
+  color: #fff;
   text-align: center;
 }
 
@@ -15,7 +22,16 @@
 
 @media (min-width: 680px) {
 
+  .projects-container {
+    background-color: rgba(67, 53, 77, 0.8);
+    border-radius: 10px;
+    margin: 3em 5em 4em 5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .projects-title {
+    color: #fff;
     text-align: center;
   }
 
