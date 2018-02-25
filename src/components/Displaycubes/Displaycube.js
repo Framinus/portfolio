@@ -4,7 +4,9 @@ import './Displaycube.css';
 const Displaycube = function(props) {
   return (
     <div className="displaycube-container">
-      <img className="project-teaser" src={props.imageUrl} alt="website screenshot" />
+      <a href={props.siteLink}>
+        <img className="project-teaser" src={props.imageUrl} alt="website screenshot" />
+      </a>
       <span className="project-title">
         <p>
           {props.title}
