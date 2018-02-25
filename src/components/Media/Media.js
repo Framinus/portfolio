@@ -14,7 +14,7 @@ class Media extends Component {
       {
         imageUrl: "./images/divein.jpg",
         title: <a href="https://medium.com/@thejamesmccormack/deploying-a-node-js-app-with-a-database-for-the-uninitialized-part-2-9710b639f94f">Deploying a Node.js App With a Database for the Uninitialized, Part 2</a>,
-        blurb: "Learn how to go inside your Heroku project using Heroku CLI to get your database up and running!"
+        blurb: "Learn how to go inside your Heroku project using Heroku CLI to get your database up and running! You will learn how to load your schema and seed files from the bash terminal on Heroku's server."
       }
     ]
   }
