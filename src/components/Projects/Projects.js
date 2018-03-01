@@ -6,7 +6,7 @@ class Projects extends Component {
   state = {
     projects: [
       {
-        imageUrl: "./images/roam-teaser-2.jpg",
+        imageUrl: "./images/roam-new-teaser.png",
         title: "Roam",
         description: "A travel review site made with Node, Express, and PostgreSQL.",
         siteLink: "https://roam-travel-site.herokuapp.com/",
