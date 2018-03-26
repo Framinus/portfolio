@@ -10,6 +10,7 @@ class App extends Component {
 
   render() {
     let imgUrl = './images/whitetexture.jpg'
+    // let imgUrl = './images/waves.jpg'
     let style = {
         root: {
             backgroundImage: 'url(' + imgUrl + ')',

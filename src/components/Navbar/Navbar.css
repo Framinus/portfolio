@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: rgb(177, 199, 167);
+  color: rgba(92, 120, 125, 0.8);
 }
 
 .navbar-container {
