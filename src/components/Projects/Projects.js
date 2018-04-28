@@ -6,6 +6,13 @@ class Projects extends Component {
   state = {
     projects: [
       {
+        imageUrl: "./images/dragons.png",
+        title: "Dragon Quest",
+        description: "A game built in React/Redux with a Node/Express API.",
+        siteLink: "https://dragon-picnic.herokuapp.com",
+        gitLink: "https://github.com/Framinus/dragon-quest"
+      },
+      {
         imageUrl: "./images/roam-new-teaser.png",
         title: "Roam",
         description: "A travel review site made with Node, Express, and PostgreSQL.",
@@ -19,13 +26,6 @@ class Projects extends Component {
         siteLink: "https://patterns-memory-game.herokuapp.com/",
         gitLink: "https://github.com/Framinus/simon-game"
       },
-      {
-        imageUrl: "./images/old-oakland-books.png",
-        title: "Old Oakland Books",
-        description: "A book catalog site built in React and Express.",
-        siteLink: "https://old-oakland-books.herokuapp.com",
-        gitLink: "https://github.com/Framinus/old-oakland-books"
-      }
     ]
   }
 

@@ -4,8 +4,6 @@ import './Profile.css';
 
 
 const Profile = function() {
-
-
   return (
     <div className="profile-container">
       <div className="profile-text">
@@ -18,11 +16,11 @@ const Profile = function() {
           </p>
           <div className="profile-story-container">
             <p className="profile-story">
-              I am an avid coder with a non-traditional background and a story to tell. I got my B.A. in <a href="http://qcpages.qc.cuny.edu/Political_Science/" target="_blank" rel="noopener noreferrer">Political Science</a>, can hold a great conversation about resource distribution, and have worked in the real world, solving problems and training leaders for years.
+              I began my JavaScript journey in 2016, working for hours on CodeAcademy and freeCodeCamp tutorials. After completing a few projects on CodePen, I realized that I wanted to immerse myself in a community of learners and professional mentors. Over 1,000 GitHub contributions and many projects later, I have developed a love of learning, testing and building within a community.
             </p>
             <p className="profile-story">
-              I am a queer and trans man who has shaped and reshaped his own life. If I don't know how to do something, I study it and master it, endlessly looking for improvements to my technique. Riding a bike for the first time at age 29? No problem. (I now ride a touring bike.) Driving across the country in an old RV? I read all the manuals and <a href="http://crosscountrydolphin.blogspot.com/2008/05/few-pictures.html" target="_blank" rel="noopener noreferrer">lived the tale</a>. Picking up a JavaScript tutorial and deciding this was an essential part of my life? That was me, two years ago. I am ready to write the next chapter!
-            </p>
+             If I don't know how to do something, I study it and master it, endlessly looking for improvements to my technique. Riding a bike for the first time at age 29? No problem. (I now ride a touring bike.) Driving across the country in an old RV? I read all the manuals and <a href="http://crosscountrydolphin.blogspot.com/2008/05/few-pictures.html" target="_blank" rel="noopener noreferrer">lived the tale</a>. Software engineering allows endless possibilities for growth! 
+          </p>
           </div>
         </div>
       </div>
